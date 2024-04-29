@@ -5,80 +5,61 @@
     box-sizing: border-box;
     font-family: Fredoka, sans serif;
 }
-
 .conteiner{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-
 }
-
+/* Regole Header */
 h1{
     text-align: center;
     color: #e53170;
     margin-top: 25px;
     margin-bottom: 35px;
+    font-size: 250%;
 }
-
+/* Regole del corpo pagina */
 main p{
     margin-bottom: 35px;
     text-align: center;
+    font-size: 110%;
 }
-
-.row{
-    width: 100%;
-    height: auto;
-}
-
-.row::after{
+.cards::after{
     content: "";
     display: table;
     clear: both;
 }
-
 .col{
-    /* DEBUG */
     background-color: black;
-    width: calc(95%/3);
-    height: 80px;
+    width: calc(93%/3);
+    height: 100px;
     float: left;
     color: #fff;
-    margin-bottom: 40px;
-    font-size: 80%;
+    margin-bottom: 50px;
+    font-size: 100%;
     box-shadow: 0px 0px 5px 0px #424242;
-    
-
 }
-
 .col img{
     height: 100%;
     float: left;
 }
-
 .col-info{
-    padding: 5px 0 0 100px;
-    
+    padding: 2px 0 0 118px;
 }
-
 .col-info h3{
-    line-height: 30px;
+    line-height: 40px;
 }
-
 span.mail{
-    color: #51a1b4;
-    line-height: 25px;
+    color: #87d6fd;
+    line-height: 35px;
     display: block;
-
 }
-
+/* Regole dei margini delle colonne */
 .col-sx{
-    margin-right: 15px;
-
+    margin-right: 20px;
 }
 .col-cnt{
-    margin: 0 7.5px 0;
-    
+    margin: 0 10px 0;
 }
 .col-dx{
-    margin-left: 15px;
-    
+    margin-left: 20px;
 }
