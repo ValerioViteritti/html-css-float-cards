@@ -1,0 +1,82 @@
+/* Regole Generali pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka, sans serif;
+}
+.conteiner{
+    width: 70%;
+    margin: 0 auto;
+}
+/* Regole Header */
+h1{
+    text-align: center;
+    color: #e53170;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 250%;
+    box-shadow: 0px 0px 5px 10px #e53170,0px 0px 5px 10px #4331e5,0px 0px 5px 15px #e5e231;
+}
+/* Regole del corpo pagina */
+main p{
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 110%;
+}
+.cards::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col{
+    background-color: black;
+    width: calc(93%/3);
+    height: 100px;
+    float: left;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 100%;
+    box-shadow: 0px 0px 5px 5px #e53170,0px 0px 5px 10px #4331e5,0px 0px 5px 15px #e5e231;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+
+
+.col:hover {
+  width: 50%;
+  height: 100%;
+  transform: rotate(360deg);
+}
+
+
+
+
+
+
+.col img{
+    height: 100%;
+    float: left;
+}
+.col-info{
+    padding: 2px 0 0 118px;
+}
+.col-info h3{
+    line-height: 40px;
+}
+span.mail{
+    color: #87d6fd;
+    line-height: 35px;
+    display: block;
+}
+/* Regole dei margini delle colonne */
+.col-sx{
+    margin-right: 20px;
+}
+.col-cnt{
+    margin: 0 10px 0;
+}
+.col-dx{
+    margin-left: 20px;
+}
