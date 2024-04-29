@@ -1,0 +1,71 @@
+/* Regole Generali pagina */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Fredoka, sans serif;
+}
+
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    color: #e53170;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+main p{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    /* DEBUG */
+    background-color: black;
+    width: calc(100%/3);
+    height: 80px;
+    float: left;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 80%;
+    box-shadow: 50px #e53576;
+    
+
+}
+
+.col img{
+    height: 100%;
+    float: left;
+}
+
+.col-info{
+    padding: 5px 0 0 100px;
+    
+}
+
+.col-info h3{
+    line-height: 30px;
+}
+
+span.mail{
+    color: #1bc4d3;
+    line-height: 30px;
+    display: block;
+
+}
